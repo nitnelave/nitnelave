@@ -5,7 +5,7 @@ require 'octokit'
 url = "https://confusedbit.dev/index.xml"
 
 # Generate the updated blog posts list (top 5)
-posts_list = ["\n### Recent Blog Posts\n\n"]
+posts_list = ["\n### Latest posts\n\n[//]: # \"Everything after this will be obliterated\"\n\n"]
 URI.open(url) do |rss|
   feed = RSS::Parser.parse(rss)
   feed.items.first(5).each do |item|
