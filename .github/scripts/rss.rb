@@ -16,12 +16,13 @@ end
 # Update the README.md file
 client = Octokit::Client.new(:access_token => ENV['GITHUB_TOKEN'])
 repo = ENV['GITHUB_REPOSITORY']
-print(ENV['GITHUB_TOKEN'][0..5])
 readme = client.readme(repo)
 readme_content = Base64.decode64(readme[:content]).force_encoding('UTF-8')
 
+readme_content = File.read("README.md")
+
 # Replace the existing blog posts section
-posts_regex = /### Latest posts\n\n[\s\S]*?(?=<\/td>)/m
+posts_regex = /### Latest posts\n\n.*/m
 updated_content = readme_content.sub(posts_regex, "#{posts_list.join("\n")}\n")
 
 client.update_contents(repo, 'README.md', 'Update latest blog posts', readme[:sha], updated_content)
