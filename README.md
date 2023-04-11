@@ -2,7 +2,8 @@
 
 Hi! I'm Valentin Tolmer, a passionate software craftsman.
 
-You might know me as the creator of [LLDAP](https://github.com/lldap/lldap),
+You might know me as the creator of [LLDAP](https://github.com/lldap/lldap)
+![GitHub Repo stars](https://img.shields.io/github/stars/lldap/lldap?style=plastic),
 or as the author of the [ConfusedBit.dev](https://confusedbit.dev) blog.
 
 I'm also a regular open source contributor, in particular in the
