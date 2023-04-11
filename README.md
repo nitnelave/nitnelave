@@ -13,6 +13,10 @@ I'm also a regular open source contributor, in particular in the
 
 Feel free to reach out at _nitnelave1@gmail.com_.
 
+### Talks
+
+ - 2020: [Rust Linz](https://rust-linz.at/) - [How not to rely on inheritance](https://www.youtube.com/watch?v=m6Gee5kNe7U&pp=ygUPdmFsZW50aW4gdG9sbWVy)
+
 ### Favorite posts
 
  - [Simply explained: how does GPT
