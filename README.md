@@ -18,6 +18,13 @@ Feel free to reach out at _nitnelave1@gmail.com_.
  - [Simply explained: how does GPT
 work?](https://confusedbit.dev/posts/how_does_gpt_work/)
 
+
 ### Latest posts
 
+[//]: # "Everything after this will be obliterated"
 
+
+* [Simply explained: how does GPT work?](https://confusedbit.dev/posts/how_does_gpt_work/) (2023/03/04)
+* [Simply explained: Where do programming languages come from?](https://confusedbit.dev/posts/programming_languages/) (2023/01/22)
+* [Teaching the Rust Borrow Checker](https://confusedbit.dev/posts/map_mut_iterator/) (2023/01/19)
+* [Birth of a new blog](https://confusedbit.dev/posts/birth_of_a_new_blog/) (2023/01/03)
