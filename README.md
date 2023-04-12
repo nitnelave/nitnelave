@@ -23,6 +23,7 @@ Feel free to reach out at _nitnelave1@gmail.com_.
 work?](https://confusedbit.dev/posts/how_does_gpt_work/)
 
 
+
 ### Latest posts
 
 [//]: # "Everything after this will be obliterated"
