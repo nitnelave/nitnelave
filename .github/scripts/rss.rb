@@ -5,7 +5,7 @@ require 'octokit'
 url = "https://confusedbit.dev/index.xml"
 
 # Generate the updated blog posts list (top 5)
-posts_list = ["\n### Latest posts\n\n[//]: # \"Everything after this will be obliterated\"\n\n"]
+posts_list = ["### Latest posts\n\n[//]: # \"Everything after this will be obliterated\"\n\n"]
 URI.open(url) do |rss|
   feed = RSS::Parser.parse(rss)
   feed.items.first(5).each do |item|
@@ -25,4 +25,6 @@ readme_content = File.read("README.md")
 posts_regex = /### Latest posts\n\n.*/m
 updated_content = readme_content.sub(posts_regex, "#{posts_list.join("\n")}\n")
 
-client.update_contents(repo, 'README.md', 'Update latest blog posts', readme[:sha], updated_content)
+if updated_content != readme_content
+  client.update_contents(repo, 'README.md', 'Update latest blog posts', readme[:sha], updated_content)
+end
