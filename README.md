@@ -12,7 +12,7 @@ I'm also a regular open source contributor, in particular in the
 [SeaQL/sea-query](https://github.com/SeaQL/sea-query) repositories.
 
 Feel free to reach out at _nitnelave1@gmail.com_, or on Mastodon at
-<a rel="me" href="https://fosstodon.org/@nitnelave">Mastodon</a>.
+<a rel="me" href="https://fosstodon.org/@nitnelave">@nitnelave@fosstodon.org</a>.
 
 ### Talks
 
